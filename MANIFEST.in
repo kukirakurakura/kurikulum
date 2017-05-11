@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include kurikulum *.css
+recursive-include kurikulum *.csv
+recursive-include kurikulum *.html
+recursive-include kurikulum *.ico
+recursive-include kurikulum *.js
+recursive-include kurikulum *.json
+recursive-include kurikulum *.md
+recursive-include kurikulum *.png
+recursive-include kurikulum *.py
+recursive-include kurikulum *.svg
+recursive-include kurikulum *.txt
+recursive-exclude kurikulum *.pyc
